@@ -1,6 +1,7 @@
 import React from "react";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
+import { Button } from "@material-ui/core";
 
 export default function BookingList(props) {
   console.log("list", props.location.state.dates);
@@ -53,6 +54,8 @@ export default function BookingList(props) {
           </div>
         </div>
       ))}
+      <Button variant="contained"
+          color="primary">Confirm Bookings</Button>
     </div>
   );
 }

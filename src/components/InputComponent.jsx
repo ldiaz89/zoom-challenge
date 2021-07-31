@@ -22,7 +22,7 @@ export default function InputComponent() {
       options={inputData}
       getOptionLabel={(option) => option}
       style={{ width: '100%' }}
-      renderInput={(params) => <TextField {...params} label="Combo box" variant="outlined" />}
+      renderInput={(params) => <TextField {...params} label="Select a choice" variant="outlined" />}
     />
   );
 }
